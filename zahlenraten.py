@@ -6,7 +6,8 @@ max = 20
 play = True
 
 while(play):
-    print("Willkommen bei Zahlenraten!")
+    player_name = input('Wie heißt du?')
+    print(f"Willkommen bei Zahlenraten, {player_name}!")
     print(f"Ich denke mir eine Zahl zwischen {str(min)} und {str(max)} aus, und du musst sie erraten!")
     print("Viel Spaß :^)")
 
